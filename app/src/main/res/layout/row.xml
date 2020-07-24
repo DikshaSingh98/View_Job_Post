@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:backgroundTint="@color/colorCardback"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_save_black_24dp"
+            />
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorBack"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/descriptionTV"
+            android:text="Description"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:textColor="#a9a9a9"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="25dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationTV"
+        android:text="Location"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="55dp"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jobTV"
+            android:text="job"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="79dp"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/stipentTV"
+            android:text="Stipent"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="103dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/educationTV"
+            android:text="Education"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="127dp"
+            />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Application"
+            android:textColor="#fff"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="155dp"
+            android:backgroundTint="@color/colorBack"
+            />
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>
